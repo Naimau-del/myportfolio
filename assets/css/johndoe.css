@@ -11620,7 +11620,7 @@ pre .code {
 
 @media (max-width: 991.98px) {
   .contact {
-    padding: 300px 0 0;
+    padding: 200px 0 0;
   }
   .contact .contact-form-card {
     border-bottom: 1px solid #dee2e6;
@@ -11663,13 +11663,13 @@ pre .code {
   margin-top: 10px;
 }
 .list {
-  display: flex;
   gap: 8px;
   padding: 16px;
-
-  list-style: none;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  overflow-x: hidden; /* Empêche le débordement horizontal */
 }
 
 .item {
@@ -11677,9 +11677,6 @@ pre .code {
   width: 80%;
 
   background-color: #FFF;
-
-  scroll-snap-align: center;
-  margin-left: 300px;
 }
 
 .content {
@@ -11785,3 +11782,4 @@ transition-duration: 500ms;
   border-radius: 50%; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
+
