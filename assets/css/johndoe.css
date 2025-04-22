@@ -11783,3 +11783,11 @@ transition-duration: 500ms;
   font-size: 18px; /* Increase font size */
 }
 
+#skill img {
+  transition: transform 0.3s ease;
+}
+
+#skill img:hover {
+  transform: scale(1.1); /* Agrandit légèrement l'image au survol */
+}
+
