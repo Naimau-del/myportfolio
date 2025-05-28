@@ -7,6 +7,7 @@
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
 	<link rel="stylesheet" href="assets/css/johndoe.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <header class="header">
@@ -53,7 +54,7 @@
                         <a href="#skill" class="nav-link">Compétences</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                        <a href="#portfolio" class="nav-link">Projets</a>
                     </li>
                     <li class="nav-item">
                         <a href="#blog" class="nav-link">Veilles</a>
@@ -66,8 +67,9 @@
         </div>
     </nav>
     <div class="container-fluid">
-        <div id="about" class="row about-section">
-            <div class="col-lg-4 about-card">
+        <!-- About Section -->
+        <div id="about" class="row about-section" data-aos="fade-up">
+            <div class="col-lg-4 about-card" data-aos="fade-right">
                 <h3 class="font-weight-light">Qui suis-je ?</h3>
                 <span class="line mb-5"></span>
                 <h5 class="mb-3">Je suis étudiant à l'Epsi en BTS SIO</h5>
@@ -83,7 +85,7 @@
                     <a href="assets/pdf/Nemo_Torres_CV-2-1.pdf" title="Pdf">Télechargez mon CV</a>
                     </button>
             </div>
-            <div class="col-lg-4 about-card">
+            <div class="col-lg-4 about-card" data-aos="fade-up">
                 <h3 class="font-weight-light">Contact</h3>
                 <span class="line mb-5"></span>
                 <ul class="mt40 info list-unstyled">
@@ -94,7 +96,7 @@
                     <li class="social-item"><a class="social-link" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
                 </ul>  
             </div>
-            <div class="col-lg-4 about-card">
+            <div class="col-lg-4 about-card" data-aos="fade-left">
                 <h3 class="font-weight-light">Mes Stages</h3>
                 <span class="line mb-5"></span>
                 <div>
@@ -115,11 +117,11 @@
     </div>
 
     <!--Resume Section-->
-    <section class="section" id="resume">
+    <section class="section" id="resume" data-aos="fade-up">
         <div class="container">
             <h2 class="mb-5"><span class="text-danger">Mon</span> CV</h2>
             <div class="row">
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-right">
                     <div class="card">
                        <div class="card-header">
                             <div class="mt-2">
@@ -143,7 +145,7 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-4">
+                <div class="col-lg-4" data-aos="fade-up">
                     <div class="card">
                        <div class="card-header">
                             <div class="pull-left">
@@ -188,7 +190,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-left">
                     <div class="card">
                        <div class="card-header">
                             <div class="mt-2">
@@ -213,44 +215,55 @@
         </div>
     </section>
     <!-- BTS Section -->
-    <section class="section" id="bts">
+    <section class="section" id="bts" data-aos="fade-up">
         <div class="container">
             <h2 class="mb-5">Mon <span class="text-danger">BTS</span></h2>
             <p class="subtitle">Le BTS SIO (Services Informatiques aux Organisations) propose deux options : SLAM (Solutions Logicielles et Applications Métiers) et SISR (Solutions d’Infrastructure, Systèmes et Réseaux). Voici leurs spécificités :</p>
             
             <div class="row">
                 <!-- Colonne SLAM -->
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right">
                     <h4 class="text-danger">Option SLAM</h4>
                     <p>L'option SLAM se concentre sur :</p>
                     <ul>
-                        <li>La conception et le développement d'applications.</li>
-                        <li>La gestion des bases de données.</li>
-                        <li>La sécurisation des applications et des données.</li>
-                        <li>La maintenance des solutions logicielles.</li>
+                        <li>La conception et le développement d’applications web, mobiles ou de bureau.</li>
+                        <li>L'utilisation de langages de programmation (PHP, Java, Python, JavaScript, etc.).</li>
+                        <li>La gestion de projets informatiques (méthodes Agile, UML…).</li>
+                        <li>La modélisation et gestion des bases de données (SQL, MySQL, PostgreSQL…).</li>
+                        <li>La sécurisation des données et des applications.</li>
+                        <li>La maintenance évolutive et corrective des logiciels.</li>
+                        <li>Les tests et la validation des applications.</li>
                     </ul>
-                    <p>Cette option est idéale pour ceux qui souhaitent devenir développeurs ou analystes-programmeurs.</p>
+                    <p>L’option SLAM s’adresse à ceux qui préfèrent le développement de logiciels et d’applications. Elle forme à l’analyse des besoins d’un client, à la conception, au développement et à la maintenance d’applications informatiques. Les étudiants y apprennent divers langages de programmation, la gestion de bases de données, et le travail en mode projet. SLAM est parfait pour les passionnés de codage et de création de solutions logicielles.</p>
+
+                       <p> Débouchés : développeur web ou logiciel, analyste programmeur, concepteur d’applications, etc.</p>
                     <p class="text-danger">Comme moi.</p>
                 </div>
     
                 <!-- Colonne SISR -->
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left">
                     <h4 class="text-danger">Option SISR</h4>
                     <p>L'option SISR se concentre sur :</p>
                     <ul>
-                        <li>La gestion des infrastructures réseau.</li>
-                        <li>La mise en place et la maintenance des systèmes informatiques.</li>
-                        <li>La sécurisation des réseaux et des systèmes.</li>
-                        <li>Le support technique aux utilisateurs.</li>
+                        <li>Installation et configuration de serveurs (Windows Server, Linux…)</li>
+  <li>Administration des systèmes et des réseaux</li>
+  <li>Virtualisation (VMware, Hyper-V…)</li>
+  <li>Configuration de routeurs, de switchs et de pare-feux</li>
+  <li>Gestion de la sécurité réseau (antivirus, pare-feu, droits d’accès…)</li>
+  <li>Mise en place de stratégies de sauvegarde et de reprise après sinistre</li>
+  <li>Déploiement de solutions cloud (Azure, AWS…)</li>
+  <li>Diagnostic et résolution d’incidents techniques</li>
                     </ul>
-                    <p>Cette option est idéale pour ceux qui souhaitent devenir administrateurs réseau ou techniciens systèmes.</p>
+                    <p>L’option SISR est destinée aux étudiants qui souhaitent se spécialiser dans la gestion des réseaux et des infrastructures informatiques. Elle forme à l’installation, la maintenance et la sécurisation des systèmes informatiques et des réseaux d’une organisation. Les étudiants y apprennent à déployer des serveurs, administrer des systèmes (Linux, Windows), assurer la continuité de service et protéger les données. Cette voie est idéale pour ceux qui aiment comprendre le fonctionnement des machines et garantir la disponibilité des services.</p>
+
+                        <p>Débouchés : administrateur systèmes et réseaux, technicien support, gestionnaire de parc informatique, etc.</p>
                 </div>
             </div>
         </div>
     </section>
 <!-- Compétences Section -->
 <!-- Compétences Section -->
-<section class="section" id="skill">
+<section class="section" id="skill" data-aos="zoom-in">
     <div class="container text-center">
         <h2 class="mb-5">Mes <span class="text-danger">Compétences</span></h2>
         <!-- Image cliquable -->
@@ -260,11 +273,11 @@
     </div>
 </section>
     <!-- Portfolio Section -->
-    <section class="section bg-custom-gray" id="portfolio">
-        <div class="container">
+    <section class="section bg-custom-gray" id="portfolio" data-aos="fade-up">
+        <div class="container" data-aos="fade-up">
             <h1 class="mb-5"><span class="text-danger">Mon</span> Portfolio</h1>
             <div class="portfolio">
-                <div class="filters">
+                <div class="filters" data-aos="fade-down">
                     <a href="#" data-filter=".new" class="active">
                         Tout mes projets
                     </a>
@@ -279,7 +292,7 @@
                     </a>
                 </div>
                 <div class="portfolio-container"> 
-                    <div class="col-md-6 col-lg-4 branding new">
+                    <div class="col-md-6 col-lg-4 branding new" >
                         <a class="projet" href="assets/pdf/Situation1_merged.pdf"><div class="portfolio-item">
                             <img src="assets/image/situation1.png" class="img-fluid" alt="premier site">
                             <div class="content-holder">
@@ -291,7 +304,7 @@
                         </div>             
                     </div>
                    
-                        <div class="col-md-6 col-lg-4 branding new">
+                        <div class="col-md-6 col-lg-4 branding new" >
                             <a class="projet" href="assets/pdf/Situation2_merged.pdf"><div class="portfolio-item">
                                 <img src="assets/image/situation2.png" class="img-fluid" alt="premier site">
                                 <div class="content-holder">
@@ -327,7 +340,7 @@
                             </div>    
                         </div>              
                     </div>
-                    <div class="col-md-6 col-lg-4 stage new">
+                    <div class="col-md-6 col-lg-4 stage new" >
                         <a class="projet" href="assets/pdf/rapportstage2.pdf"><div class="portfolio-item">
                             <img src="assets/image/silat.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
                             <div class="content-holder">
@@ -339,7 +352,7 @@
                             </div>    
                         </div>              
                     </div>  
-                    <div class="col-md-6 col-lg-4 advertising new">
+                    <div class="col-md-6 col-lg-4 advertising new" >
                         <a class="projet" href="assets/pdf/bdd1.pdf"><div class="portfolio-item">
                             <img src="assets/image/gite.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
                             <div class="content-holder">
@@ -351,7 +364,7 @@
                             </div>    
                         </div>              
                     </div> 
-                    <div class="col-md-6 col-lg-4 branding new">
+                    <div class="col-md-6 col-lg-4 branding new" >
                         <a class="projet" href="assets/pdf/"><div class="portfolio-item">
                             <img src="assets/image/vg.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
                             <div class="content-holder">
@@ -363,7 +376,7 @@
                             </div>    
                         </div>              
                     </div> 
-                    <div class="col-md-6 col-lg-4 branding new">
+                    <div class="col-md-6 col-lg-4 branding new" >
                         <a class="projet" href="assets/pdf/fauxrealdocu.pdf"><div class="portfolio-item">
                             <img src="assets/image/foreal.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
                             <div class="content-holder">
@@ -375,7 +388,7 @@
                             </div>    
                         </div>              
                     </div>
-                    <div class="col-md-6 col-lg-4 branding new">
+                    <div class="col-md-6 col-lg-4 branding new" >
                         <a class="projet" href="assets/pdf/pizzaflut.pdf"><div class="portfolio-item">
                             <img src="assets/image/flutter.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
                             <div class="content-holder">
@@ -387,7 +400,7 @@
                             </div>    
                         </div>              
                     </div>
-                    <div class="col-md-6 col-lg-4 advertising new">
+                    <div class="col-md-6 col-lg-4 advertising new" >
                         <a class="projet" href="assets/pdf/scrapper.pdf"><div class="portfolio-item">
                             <img src="assets/image/imdb.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
                             <div class="content-holder">
@@ -400,7 +413,7 @@
                         </div>                                                     
                     </div>
 
-                    <div class="col-md-6 col-lg-4 advertising new"> 
+                    <div class="col-md-6 col-lg-4 advertising new" > 
                         <a class="projet" href="assets/pdf/bataillenavaledoc.pdf"><div class="portfolio-item">
                             <img src="assets/image/navale.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
                             <div class="content-holder">
@@ -413,7 +426,7 @@
                     </div> 
                     
                     
-                    <div class="col-md-6 col-lg-4 advertising new">
+                    <div class="col-md-6 col-lg-4 advertising new" >
                         <a class="projet" href="assets/pdf/nept.pdf"><div class="portfolio-item">
                             <img src="assets/image/Neptune.png" class="img-fluid" alt="Hôtel Neptune">       
                            <div class="content-holder">
@@ -432,7 +445,7 @@
     </section>
     <!-- End of portfolio section -->
 
-    <section class="section" id="blog">
+    <section class="section" id="blog" >
         <div class="container">
             <h2 class="mb-5">Mes <span class="text-danger">Veilles</span></h2>
         </div>
@@ -486,14 +499,14 @@
         </ul>
     </section>
 
-    <div class="section contact" id="contact">
+    <div class="section contact" id="contact" data-aos="fade-up">
         <div id="map" class="map"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-8" data-aos="fade-right">
                     <div class="contact-form-card">
                         <h4 class="contact-title">M'envoyer un message</h4>
-                        <form action="mailto:" method="get" enctype="text/plain">
+                        <form action="mailto:nemotorres.contact@gmail.com" method="get" enctype="text/plain">
                             
                             <div class="form-group ">
                                 <button type="submit" class="form-control btn btn-primary" >Envoyer Mail</button>
@@ -505,7 +518,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4" data-aos="fade-left">
                     <div class="contact-info-card">
                         <h4 class="contact-title">Me contacter :</h4>
                         <div class="row mb-2">
@@ -534,6 +547,9 @@
 
     <!-- JohnDoe js -->
     <script src="assets/js/johndoe.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init(); // Initialise AOS
+</script>
 </body>
 </html>
