@@ -27,19 +27,14 @@
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+            <div class="collapse mt-sm-20 navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <!-- Menu gauche -->
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a href="#home" class="nav-link">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">A propos</a>
-                    </li>
-                    <li class="nav-item">
                         <a href="#resume" class="nav-link">Mon CV</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#bts" class="nav-link">BTS</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
@@ -49,15 +44,10 @@
                         <div class="brand-subtitle"></div>
                     </li>
                 </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="#skill" class="nav-link">Compétences</a>
-                    </li>
+                <!-- Menu droite -->
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a href="#portfolio" class="nav-link">Projets</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#blog" class="nav-link">Veilles</a>
                     </li>
                     <li class="nav-item last-item">
                         <a href="#contact" class="nav-link">Contact</a>
@@ -72,8 +62,9 @@
             <div class="col-lg-4 about-card" data-aos="fade-right">
                 <h3 class="font-weight-light">Qui suis-je ?</h3>
                 <span class="line mb-5"></span>
-                <h5 class="mb-3">Je suis étudiant à l'Epsi en BTS SIO</h5>
-                <p class="mt-20">Étudiant en première année en école
+                
+                <h5 class="mb-3">Je suis étudiant à l'Ipssi</h5>
+                <p class="mt-20">Étudiant en troisième année en école
                     d’informatique, je suis
                     quelqu’un de curieux et volontaire
                     ayant le soucis de bien faire. Mon
@@ -131,8 +122,8 @@
                         </div>
                         <div class="card-body">
                             <h6 class="title text-danger">2023 - Présent</h6>
-                            <P>Epsi</P>
-                            <P class="subtitle">Je me suis inscrit à l'Epsi parce que l'informatique était pour moi une des meilleures façons d'appliquer mon sens logique et de l'algorithmique. </P>
+                            <P>Ipssi</P>
+                            <P class="subtitle">Je me suis inscrit à l'Ipssi parce que l'informatique était pour moi une des meilleures façons d'appliquer mon sens logique et l'algorithmique. </P>
                             <hr>
                             <h6 class="title text-danger">2020 - 2022</h6>
                             <P>Faculté des Sciences de Montpellier</P>
@@ -214,292 +205,239 @@
             </div>
         </div>
     </section>
-    <!-- BTS Section -->
-    <section class="section" id="bts" data-aos="fade-up">
-        <div class="container">
-            <h2 class="mb-5">Mon <span class="text-danger">BTS</span></h2>
-            <p class="subtitle">Le BTS SIO (Services Informatiques aux Organisations) propose deux options : SLAM (Solutions Logicielles et Applications Métiers) et SISR (Solutions d’Infrastructure, Systèmes et Réseaux). Voici leurs spécificités :</p>
-            
-            <div class="row">
-                <!-- Colonne SLAM -->
-                <div class="col-md-6" data-aos="fade-right">
-                    <h4 class="text-danger">Option SLAM</h4>
-                    <p>L'option SLAM se concentre sur :</p>
-                    <ul>
-                        <li>La conception et le développement d’applications web, mobiles ou de bureau.</li>
-                        <li>L'utilisation de langages de programmation (PHP, Java, Python, JavaScript, etc.).</li>
-                        <li>La gestion de projets informatiques (méthodes Agile, UML…).</li>
-                        <li>La modélisation et gestion des bases de données (SQL, MySQL, PostgreSQL…).</li>
-                        <li>La sécurisation des données et des applications.</li>
-                        <li>La maintenance évolutive et corrective des logiciels.</li>
-                        <li>Les tests et la validation des applications.</li>
-                    </ul>
-                    <p>L’option SLAM s’adresse à ceux qui préfèrent le développement de logiciels et d’applications. Elle forme à l’analyse des besoins d’un client, à la conception, au développement et à la maintenance d’applications informatiques. Les étudiants y apprennent divers langages de programmation, la gestion de bases de données, et le travail en mode projet. SLAM est parfait pour les passionnés de codage et de création de solutions logicielles.</p>
-
-                       <p> Débouchés : développeur web ou logiciel, analyste programmeur, concepteur d’applications, etc.</p>
-                    <p class="text-danger">Comme moi.</p>
-                </div>
-    
-                <!-- Colonne SISR -->
-                <div class="col-md-6" data-aos="fade-left">
-                    <h4 class="text-danger">Option SISR</h4>
-                    <p>L'option SISR se concentre sur :</p>
-                    <ul>
-                        <li>Installation et configuration de serveurs (Windows Server, Linux…)</li>
-  <li>Administration des systèmes et des réseaux</li>
-  <li>Virtualisation (VMware, Hyper-V…)</li>
-  <li>Configuration de routeurs, de switchs et de pare-feux</li>
-  <li>Gestion de la sécurité réseau (antivirus, pare-feu, droits d’accès…)</li>
-  <li>Mise en place de stratégies de sauvegarde et de reprise après sinistre</li>
-  <li>Déploiement de solutions cloud (Azure, AWS…)</li>
-  <li>Diagnostic et résolution d’incidents techniques</li>
-                    </ul>
-                    <p>L’option SISR est destinée aux étudiants qui souhaitent se spécialiser dans la gestion des réseaux et des infrastructures informatiques. Elle forme à l’installation, la maintenance et la sécurisation des systèmes informatiques et des réseaux d’une organisation. Les étudiants y apprennent à déployer des serveurs, administrer des systèmes (Linux, Windows), assurer la continuité de service et protéger les données. Cette voie est idéale pour ceux qui aiment comprendre le fonctionnement des machines et garantir la disponibilité des services.</p>
-
-                        <p>Débouchés : administrateur systèmes et réseaux, technicien support, gestionnaire de parc informatique, etc.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-<!-- Compétences Section -->
-<!-- Compétences Section -->
-<section class="section" id="skill" data-aos="zoom-in">
-    <div class="container text-center">
-        <h2 class="mb-5">Mes <span class="text-danger">Compétences</span></h2>
-        <!-- Image cliquable -->
-        <a href="assets/pdf/competences.pdf" target="_blank">
-            <img src="assets/image/competences.png" alt="Compétences" class="img-fluid" style="max-width: 300px; cursor: pointer;">
-        </a>
-    </div>
-</section>
     <!-- Portfolio Section -->
     <section class="section bg-custom-gray" id="portfolio" data-aos="fade-up">
         <div class="container" data-aos="fade-up">
             <h1 class="mb-5"><span class="text-danger">Mon</span> Portfolio</h1>
             <div class="portfolio">
                 <div class="filters" data-aos="fade-down">
-                    <a href="#" data-filter=".new" class="active">
-                        Tout mes projets
-                    </a>
-                    <a href="#" data-filter=".advertising">
-                        1ère Année
-                    </a>
-                    <a href="#" data-filter=".branding">
-                        2ème Année
-                    </a>
-                    <a href="#" data-filter=".stage">
-                        En stage
-                    </a>
+                    <a href="#" data-filter="*" >Tous les projets</a>
+                    <a href="#" data-filter=".web">Développement Web</a>
+                    <a href="#" data-filter=".bdd">Base de données</a>
+                    <a href="#" data-filter=".app">Application</a>
                 </div>
-                <div class="portfolio-container"> 
-                    <div class="col-md-6 col-lg-4 branding new" >
-                        <a class="projet" href="assets/pdf/Situation1_merged.pdf"><div class="portfolio-item">
-                            <img src="assets/image/situation1.png" class="img-fluid" alt="premier site">
-                            <div class="content-holder">
-                                <div class="text-holder">
+                <div class="portfolio-container">
+                    <!-- Situation 1 -->
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/image/situation1.png" class="img-fluid" alt="Situation 1">
+                                </div>
+                                <div class="flip-card-back">
                                     <h6 class="title">Situation 1</h6>
                                     <p class="subtitle">Bibliothèque musicale</p>
+                                    <a href="https://github.com/TON_GITHUB" target="_blank" class="social-link text-dark" title="Voir sur GitHub">
+    <i class="ti-github" aria-hidden="true" style="font-size: 2rem;"></i>
+</a>
+                                    <p class="mt-2"><a href="assets/pdf/Situation1_merged.pdf" target="_blank">Voir le PDF</a></p>
                                 </div>
-                            </div>   
-                        </div>             
+                            </div>
+                        </div>
                     </div>
-                   
-                        <div class="col-md-6 col-lg-4 branding new" >
-                            <a class="projet" href="assets/pdf/Situation2_merged.pdf"><div class="portfolio-item">
-                                <img src="assets/image/situation2.png" class="img-fluid" alt="premier site">
-                                <div class="content-holder">
-                                    <div class="text-holder">
-                                        <h6 class="title">Situation 2</h6>
-                                        <p class="subtitle">SportShop</p>
-                                    </div>
-                                </div>   
-                            </div>             
+                    <!-- Situation 2 -->
+                    <div class="col-md-6 col-lg-4 app">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/image/situation2.png" class="img-fluid" alt="Situation 2">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h6 class="title">Situation 2</h6>
+                                    <p class="subtitle">SportShop</p>
+                                    <a href="https://github.com/TON_GITHUB" target="_blank" class="social-link text-dark" title="Voir sur GitHub">
+    <i class="ti-github" aria-hidden="true" style="font-size: 2rem;"></i>
+</a>
+                                    <p class="mt-2"><a href="assets/pdf/Situation2_merged.pdf" target="_blank">Voir le PDF</a></p>
+                                </div>
+                            </div>
                         </div>
-                
-                        <div class="col-md-6 col-lg-4 advertising new">
-                            <a class="projet" href="assets/pdf/pagefan.pdf"><div class="portfolio-item">
-                                <img src="assets/image/redhot.png" class="img-fluid" alt="premier site">
-                                <div class="content-holder">
-                                    <div class="text-holder">
-                                        <h6 class="title">Page fan pour groupe de musique</h6>
-                                        <p class="subtitle">Projet Web</p>
-                                    </div>
-                                </div>   
-                            </div>             
+                    </div>
+                    <!-- Page fan -->
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/image/redhot.png" class="img-fluid" alt="Page fan">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h6 class="title">Page fan pour groupe de musique</h6>
+                                    <p class="subtitle">Projet Web</p>
+                                    <a href="https://github.com/TON_GITHUB" target="_blank" class="social-link text-dark" title="Voir sur GitHub">
+    <i class="ti-github" aria-hidden="true" style="font-size: 2rem;"></i>
+</a>
+                                    <p class="mt-2"><a href="assets/pdf/pagefan.pdf" target="_blank">Voir le PDF</a></p>
+                                </div>
+                            </div>
                         </div>
-                         
-                    <div class="col-md-6 col-lg-4 stage new">
-                        <a class="projet" href="assets/pdf/rapport_de_stage.pdf"><div class="portfolio-item">
-                            <img src="assets/image/odo.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
-                            <div class="content-holder">
-                                <div class="text-holder">
+                    </div>
+                    <!-- Stage Odoo -->
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/image/odo.png" class="img-fluid" alt="Stage Odoo">
+                                </div>
+                                <div class="flip-card-back">
                                     <h6 class="title">SITE WEB</h6>
-                                    <p class="subtitle">Réalisé grâçe à un CMS</p>
-                                </a>
+                                    <p class="subtitle">Réalisé grâce à un CMS</p>
+                                    <a href="https://github.com/TON_GITHUB" target="_blank" class="social-link text-dark" title="Voir sur GitHub">
+    <i class="ti-github" aria-hidden="true" style="font-size: 2rem;"></i>
+</a>
+                                    <p class="mt-2"><a href="assets/pdf/rapport_de_stage.pdf" target="_blank">Voir le PDF</a></p>
                                 </div>
-                            </div>    
-                        </div>              
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 stage new" >
-                        <a class="projet" href="assets/pdf/rapportstage2.pdf"><div class="portfolio-item">
-                            <img src="assets/image/silat.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
-                            <div class="content-holder">
-                                <div class="text-holder">
+                    <!-- Stage Silat -->
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/image/silat.png" class="img-fluid" alt="Stage Silat">
+                                </div>
+                                <div class="flip-card-back">
                                     <h6 class="title">SITE WEB</h6>
                                     <p class="subtitle">Réalisé avec HTML, CSS, JS</p>
-                                </a>
+                                    <a href="https://github.com/TON_GITHUB" target="_blank" class="social-link text-dark" title="Voir sur GitHub">
+    <i class="ti-github" aria-hidden="true" style="font-size: 2rem;"></i>
+</a>
+                                    <p class="mt-2"><a href="assets/pdf/rapportstage2.pdf" target="_blank">Voir le PDF</a></p>
                                 </div>
-                            </div>    
-                        </div>              
-                    </div>  
-                    <div class="col-md-6 col-lg-4 advertising new" >
-                        <a class="projet" href="assets/pdf/bdd1.pdf"><div class="portfolio-item">
-                            <img src="assets/image/gite.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
-                            <div class="content-holder">
-                                <div class="text-holder">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Projet base de données gite -->
+                    <div class="col-md-6 col-lg-4 bdd">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/image/gite.jpg" class="img-fluid" alt="Projet base de données">
+                                </div>
+                                <div class="flip-card-back">
                                     <h6 class="title">Projet base de données</h6>
                                     <p class="subtitle">Base de données d'un gite en SQLlite</p>
-                                </a>
+                                    <a href="https://github.com/TON_GITHUB" target="_blank" class="social-link text-dark" title="Voir sur GitHub">
+    <i class="ti-github" aria-hidden="true" style="font-size: 2rem;"></i>
+</a>
+                                    <p class="mt-2"><a href="assets/pdf/bdd1.pdf" target="_blank">Voir le PDF</a></p>
                                 </div>
-                            </div>    
-                        </div>              
-                    </div> 
-                    <div class="col-md-6 col-lg-4 branding new" >
-                        <a class="projet" href="assets/pdf/"><div class="portfolio-item">
-                            <img src="assets/image/vg.png" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
-                            <div class="content-holder">
-                                <div class="text-holder">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Projet présentation école éducative -->
+                    <div class="col-md-6 col-lg-4 app">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/image/vg.png" class="img-fluid" alt="Projet présentation école éducative">
+                                </div>
+                                <div class="flip-card-back">
                                     <h6 class="title">Projet présentation école éducative (Workshop)</h6>
                                     <p class="subtitle">Jeu vidéo réalisé sous Unity</p>
-                                </a>
+                                    <a href="https://github.com/TON_GITHUB" target="_blank" class="social-link text-dark" title="Voir sur GitHub">
+    <i class="ti-github" aria-hidden="true" style="font-size: 2rem;"></i>
+</a>
+                                    <p class="mt-2"><a href="assets/pdf/" target="_blank">Voir le PDF</a></p>
                                 </div>
-                            </div>    
-                        </div>              
-                    </div> 
-                    <div class="col-md-6 col-lg-4 branding new" >
-                        <a class="projet" href="assets/pdf/fauxrealdocu.pdf"><div class="portfolio-item">
-                            <img src="assets/image/foreal.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
-                            <div class="content-holder">
-                                <div class="text-holder">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Deuxième Projet de base de données -->
+                    <div class="col-md-6 col-lg-4 bdd">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/image/foreal.jpg" class="img-fluid" alt="Deuxième Projet de base de données">
+                                </div>
+                                <div class="flip-card-back">
                                     <h6 class="title">Deuxième Projet de base de données</h6>
                                     <p class="subtitle">Réalisé sous SQLlite et Transact</p>
-                                </a>
+                                    <a href="https://github.com/TON_GITHUB" target="_blank" class="social-link text-dark" title="Voir sur GitHub">
+    <i class="ti-github" aria-hidden="true" style="font-size: 2rem;"></i>
+</a>
+                                    <p class="mt-2"><a href="assets/pdf/fauxrealdocu.pdf" target="_blank">Voir le PDF</a></p>
                                 </div>
-                            </div>    
-                        </div>              
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 branding new" >
-                        <a class="projet" href="assets/pdf/pizzaflut.pdf"><div class="portfolio-item">
-                            <img src="assets/image/flutter.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
-                            <div class="content-holder">
-                                <div class="text-holder">
+                    <!-- Flutter Pizzeria -->
+                    <div class="col-md-6 col-lg-4 app">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/image/flutter.jpg" class="img-fluid" alt="Flutter Pizzeria">
+                                </div>
+                                <div class="flip-card-back">
                                     <h6 class="title">Flutter Pizzeria</h6>
                                     <p class="subtitle">Application mobile réalisée sous Flutter</p>
-                                </a>
+                                    <a href="https://github.com/TON_GITHUB" target="_blank" class="social-link text-dark" title="Voir sur GitHub">
+    <i class="ti-github" aria-hidden="true" style="font-size: 2rem;"></i>
+</a>
+                                    <p class="mt-2"><a href="assets/pdf/pizzaflut.pdf" target="_blank">Voir le PDF</a></p>
                                 </div>
-                            </div>    
-                        </div>              
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 advertising new" >
-                        <a class="projet" href="assets/pdf/scrapper.pdf"><div class="portfolio-item">
-                            <img src="assets/image/imdb.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <div class="text-holder">
+                    <!-- Scrapper IMDB -->
+                    <div class="col-md-6 col-lg-4 app">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/image/imdb.jpg" class="img-fluid" alt="Scrapper IMDB">
+                                </div>
+                                <div class="flip-card-back">
                                     <h6 class="title">Scrapper IMDB</h6>
                                     <p class="subtitle">Un scrapper réalisé avec Selenium</p>
-                                </a>
+                                    <a href="https://github.com/TON_GITHUB" target="_blank" class="social-link text-dark" title="Voir sur GitHub">
+    <i class="ti-github" aria-hidden="true" style="font-size: 2rem;"></i>
+</a>
+                                    <p class="mt-2"><a href="assets/pdf/scrapper.pdf" target="_blank">Voir le PDF</a></p>
                                 </div>
                             </div>
-                        </div>                                                     
+                        </div>
                     </div>
-
-                    <div class="col-md-6 col-lg-4 advertising new" > 
-                        <a class="projet" href="assets/pdf/bataillenavaledoc.pdf"><div class="portfolio-item">
-                            <img src="assets/image/navale.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
-                            <div class="content-holder">
-                                <div class="text-holder">
+                    <!-- Bataille Navale PHP -->
+                    <div class="col-md-6 col-lg-4 app">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/image/navale.jpg" class="img-fluid" alt="Bataille Navale PHP">
+                                </div>
+                                <div class="flip-card-back">
                                     <h6 class="title">Bataille Navale PHP</h6>
                                     <p class="subtitle">Un programme qui consiste à effectuer une bataille navale sur un terminal</p>
+                                    <a href="https://github.com/TON_GITHUB" target="_blank" class="social-link text-dark" title="Voir sur GitHub">
+    <i class="ti-github" aria-hidden="true" style="font-size: 2rem;"></i>
+</a>
+                                    <p class="mt-2"><a href="assets/pdf/bataillenavaledoc.pdf" target="_blank">Voir le PDF</a></p>
                                 </div>
                             </div>
-                        </div>                                                       
-                    </div> 
-                    
-                    
-                    <div class="col-md-6 col-lg-4 advertising new" >
-                        <a class="projet" href="assets/pdf/nept.pdf"><div class="portfolio-item">
-                            <img src="assets/image/Neptune.png" class="img-fluid" alt="Hôtel Neptune">       
-                           <div class="content-holder">
-                                <div class="text-holder">
+                        </div>
+                    </div>
+                    <!-- Hotel Neptune -->
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/image/Neptune.png" class="img-fluid" alt="Hotel Neptune">
+                                </div>
+                                <div class="flip-card-back">
                                     <h6 class="title">Hotel Neptune</h6>
                                     <p class="subtitle">Un site Web réalisé avec Html/CSS, Php et SQLlite</p>
-                                </a>
+                                    <a href="https://github.com/TON_GITHUB" target="_blank" class="social-link text-dark" title="Voir sur GitHub">
+    <i class="ti-github" aria-hidden="true" style="font-size: 2rem;"></i>
+</a>
+                                    <p class="mt-2"><a href="assets/pdf/nept.pdf" target="_blank">Voir le PDF</a></p>
                                 </div>
                             </div>
-                        </div>                                                       
-                    </div> 
-                            
+                        </div>
+                    </div>
                 </div> 
             </div>  
         </div>            
     </section>
     <!-- End of portfolio section -->
-
-    <section class="section" id="blog" >
-        <div class="container">
-            <h2 class="mb-5">Mes <span class="text-danger">Veilles</span></h2>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="subtitle">
-                        Dans le cadre de ma formation, j'ai réalisé plusieurs veilles technologiques sur des sujets qui m'intéressent particulièrement. J'ai sélectionné les articles qui m'ont le plus intéressé et que je vous propose de découvrir.  
-                    </p>
-                    <p class="subtitle">
-                        j'ai réalisé ces veilles avec des outils tels que google alert, un outil gratuit de Google qui permet de recevoir des notifications par e-mail lorsqu’un nouveau contenu correspondant à un mot-clé est publié sur le web. Ainsi que Feedly, un agrégateur de flux RSS qui permet de suivre les actualités et les publications de différents sites web en un seul endroit. Ces outils m'ont permis de rester informé des dernières tendances et innovations dans le domaine de l'informatique et des nouvelles technologies.
-
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <ul class="list">
-            <li class="item"><div class="content">   <div class="container">
-                
-                <div class="row">
-                    <div class="blog-card">
-                        <div class="img-holder">
-                            <img src="assets/image/chatgpt.jpg" alt="ChatGPT">
-                        </div>
-                        <div class="content-holder">
-                            <h6 class="title">ChatGPT</h6>
-                            
-                            <p>ChatGPT est un outil utilisé de plus en plus dans notre quotidien et rares sont ceux qui ne l'ont pas utilisés au moins une fois dans leurs vies mais quels sont les limites d'un tel outil ou au contraire qu'est ce qu'il permet de faire. J'ai sélectionné les articles qui m'intéressaient le plus sur ce sujet.</p>
-    
-                            <a href="assets/Veille1.pdf" class="read-more">En savoir plus <i class="ti-angle-double-right"></i></a>
-                        </div>
-                    </div><!-- end of blog wrapper -->
-    
-                   
-                    <!-- blog-card -->
-                    <div class="blog-card">
-                        <div class="img-holder">
-                            <img src="assets/image/vr.jpg" alt="VR">
-                        </div>
-                        <div class="content-holder">
-                            <h4 class="title">Virtual Reality et Augmented Reality</h4>
-                            <p>  La réalité virtuelle est une technologie émergente et qui pourrait très vite devenir un atout majeur dans certaines disciplines mais n'est pas sans risques .</p>
-    
-                            <a href="assets/Veille2.pdf" class="read-more">En savoir plus <i class="ti-angle-double-right"></i></a>
-                        </div>
-                    </div><!-- end of blog wrapper -->
-    
-                </div>
-            </div></div>
-                </div>
-            </div></div></li>
-        </ul>
-    </section>
 
     <div class="section contact" id="contact">
         <div id="map" class="map"></div>
